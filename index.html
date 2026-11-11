@@ -6,19 +6,27 @@
 <title>Syon Mansur's Home Page</title>
 <meta name="description" content="Syon Mansur, PhD student in Neuroscience at UCLA.">
 <style>
-  body { font-family: "Times New Roman", Times, serif; font-size: 17px; line-height: 1.4; margin: 12px; }
-  .page { width: 100%; max-width: 640px; table-layout: fixed; }
-  .banner { text-align: center; background: #000080; color: #ffff00; font-family: "Courier New", Courier, monospace; font-size: 15px; padding: 3px 6px; border: 2px inset #808080; }
-  li { margin-bottom: 0.8em; }
+  body { margin: 12px; background: #000080; color: #ffffff; font-family: "Courier New", Courier, monospace; font-size: 16px; line-height: 1.5; }
+  a { color: #00ffff; }
+  a:visited { color: #ff99ff; }
+  .page { width: 100%; max-width: 680px; table-layout: fixed; }
+  .box { background: #0000a8; border: 3px outset #8080ff; padding: 10px 16px; margin: 0 0 14px; }
+  h1 { color: #ffff00; font-size: 30px; margin: 4px 0 8px; letter-spacing: 1px; }
+  h2 { color: #ffff00; font-size: 20px; margin: 0 0 10px; }
+  b { color: #ffff00; }
+  i { color: #c0c0ff; }
+  .banner { text-align: center; color: #000080; background: #ffff00; font-weight: bold; padding: 4px 6px; border: 3px inset #c0a000; margin: 0 0 14px; }
+  ul { padding-left: 1.3em; margin: 0; }
+  li { margin-bottom: 0.9em; }
   img.px { image-rendering: pixelated; }
-  .photo { border: 2px outset #ffffff; width: 120px; height: auto; }
+  .photo { border: 3px outset #8080ff; width: 120px; height: auto; }
 </style>
 </head>
-<body bgcolor="#c0c0c0" text="#000000" link="#0000ee" vlink="#551a8b" alink="#ff0000">
+<body>
 <center>
 <table class="page" cellpadding="0" cellspacing="0" border="0"><tr><td>
 
-<center>
+<div class="box"><center>
   <!-- To add a photo, upload photo.jpg to the repo. If it's missing, it hides itself. -->
   <img class="photo" src="photo.jpg" alt="Photo of Syon Mansur" onerror="this.remove()"><br>
   <h1>Syon Mansur</h1>
@@ -31,13 +39,10 @@
     <a href="https://github.com/SyonMansur">GitHub</a> |
     <a href="https://linkedin.com/in/syonmansur">LinkedIn</a> ]
   <!-- | <a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a> -->
-</center>
+</center></div>
 
-<br>
-<div class="banner">*** Looking for a research internship for summer 2027! ***</div>
 
-<hr>
-
+<div class="box">
 <h2>About Me</h2>
 
 <p>I'm a second-year PhD student advised by Dr. Joel Zylberberg at UCLA. I study how artificial neural networks can learn good representations without end-to-end backpropagation, and I want to better understand when local, brain-inspired learning rules work.</p>
@@ -46,10 +51,11 @@
 
 <p>Before this, I worked on hippocampal place cells in the Wikenheiser Lab (UCLA), studied dopamine circuits in the Hollon Lab (UCSD), and built automated EEG analysis pipelines in the Mucke Lab (Gladstone/UCSF).</p>
 
-<p>If any of this sounds interesting to you, don't hesitate to reach out!.</p>
+<p>If any of this sounds interesting to you, don't hesitate to reach out-- I'm looking for internship opportunities in 2027!</p>
 
-<hr>
+</div>
 
+<div class="box">
 <h2>Papers</h2>
 <ul>
   <li>
@@ -73,11 +79,9 @@
     <i>COSYNE 2027</i>
   </li> -->
 </ul>
-
-<hr>
+</div>
 
 <center>
-  <br>
   <img class="px" src="button_ucla_neuro.png" width="88" height="31" alt="UCLA Neuro PhD">
   <img class="px" src="button_mk8dx_lounge.png" width="88" height="31" alt="Mario Kart items">
 </center>
